@@ -17,7 +17,7 @@ temps_c = Array.new
   temps_c << toC(t)
 end
 
-output = "[floatleft][box][table=plain]"\
+puts "[floatleft][box][table=plain]"\
 "[tr][td]City[/td][td]Temp f / c[/td][/tr]"\
 "[tr][td]Alhill[/td][td]#{temps[0]} / #{temps_c[0]}[/td][/tr]"\
 "[tr][td]Ash[/td][td]#{temps[1]} / #{temps_c[1]}[/td][/tr]"\
@@ -31,5 +31,3 @@ output = "[floatleft][box][table=plain]"\
 "[tr][td]Spaero[/td][td]#{temps[9]} / #{temps_c[9]}[/td][/tr]"\
 "[tr][td]Waypool[/td][td]#{temps[10]} / #{temps_c[10]}[/td][/tr]"\
 "[/table][/box][/floatleft]"
-
-puts output
