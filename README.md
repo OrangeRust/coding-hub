@@ -1,2 +1,3 @@
 # coding-hub
-Bunch of misc coding projects
+
+A collection of (some of) my coding projects.
